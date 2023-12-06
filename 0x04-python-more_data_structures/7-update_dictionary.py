@@ -1,11 +1,8 @@
 #!/usr/bin/python3
-
 def update_dictionary(a_dictionary, key, value):
     """
-    Replaces or adds a new key/value in 
+    Replaces or adds a new key/value in
     a dictionary.
     """
-    if a_dictionary is None:
-        return None
     a_dictionary[key] = value
     return a_dictionary
