@@ -6,7 +6,6 @@ if (args.length <= 3) {
 } else {
   const array = args.map(Number)
   .slice(2, args.length)
-  .sort((a, b) => b - a);
-	
+  .sort((a, b) => b - a);	
   console.log(array[1]);
 }
