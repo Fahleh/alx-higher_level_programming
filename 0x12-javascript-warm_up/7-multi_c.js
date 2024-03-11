@@ -12,6 +12,6 @@ const printMultiple = () => {
       i++;
     }
   }
-}
+};
 
 printMultiple();
