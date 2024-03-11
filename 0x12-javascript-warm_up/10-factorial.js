@@ -1,9 +1,9 @@
 #!/usr/bin/node
 const args = process.argv;
-const n = parseInt(args[2]);
+const num = parseInt(args[2]);
 
-const factorial = (num) => {
-	return num === 0 || isNaN(num)? 1 : num * factorial(num - 1);
+const factorial = (n) => {
+  return n === 0 || isNaN(n)? 1 : n * factorial(n - 1);
 }
 
-console.log(factorial(n));
+console.log(factorial(num));
