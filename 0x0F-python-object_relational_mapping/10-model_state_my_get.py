@@ -1,5 +1,5 @@
 #!/usr/bin/python3
-""" 
+"""
     Prints the State object with the name passed as argument from the database
 """
 import sys

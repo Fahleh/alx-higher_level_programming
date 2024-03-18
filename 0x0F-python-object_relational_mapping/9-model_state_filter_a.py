@@ -1,5 +1,5 @@
 #!/usr/bin/python3
-""" 
+"""
     Lists all states from the database hbtn_0e_6_usa filtered by
     those containing the letter 'a'.
 """
